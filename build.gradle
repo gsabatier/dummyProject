@@ -1,5 +1,7 @@
-description = "Sample porject to itnroduce Git, Gradle and CircleCI"
+description = "Sample project to itnroduce Git, Gradle and CircleCI"
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.0'
 }
+
+apply plugin: 'java'
