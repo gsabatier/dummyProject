@@ -19,8 +19,7 @@ To create the eclipse specific descriptor files, you can simply apply the "eclip
 
 * Run eclipse task, this will amend or overwrite some of the existing Eclipse files.
 	```$./gradlew eclipse```
-To completely overwrite the exisiting Eclipse files, you have run following (in the given order):
-	```$./gradlew clean cleanEclipse eclipse```
+To completely overwrite the exisiting Eclipse files, you can run tasks(in the given order): clean cleanEclipse eclipse
 
 Do the same to list the tasks after applying the plugin and see what new tasks are available now.
 
