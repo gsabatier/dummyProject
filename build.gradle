@@ -1,0 +1,5 @@
+description = "Sample porject to itnroduce Git, Gradle and CircleCI"
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
