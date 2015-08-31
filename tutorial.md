@@ -1,6 +1,6 @@
 ###Applying Java Plugin
 * Add following line in build.gradle on top.
-	```apply plugin: java```
+	```apply plugin: 'java'```
 * run build task
 	```$./gradlew build```
 
@@ -15,7 +15,7 @@ You'll notice more tasks in the list under section "build tasks", "documentation
 To create the eclipse specific descriptor files, you can simply apply the "eclipse" plugin.
 
 * Add following line in build.gradle.
-	```apply plugin: eclipse```
+	```apply plugin: 'eclipse'```
 
 * Run eclipse task, this will amend or overwrite some of the existing Eclipse files.
 	```$./gradlew eclipse```
