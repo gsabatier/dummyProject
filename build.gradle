@@ -1,7 +1,19 @@
-description = "Sample project to itnroduce Git, Gradle and CircleCI"
+description = "Sample project to introduce Git, Gradle and CircleCI"
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.0'
 }
 
-apply plugin: 'java'
+//apply plugin: 'java'
+//apply plugin: 'eclipse'
+
+//repositories { mavenCentral() }
+
+//dependencies {
+//    compile([
+//          'commons-collections:commons-collections:3.2',
+//            'joda-time:joda-time:2.6'
+//        ])
+//
+//    testCompile([ 'junit:junit:4.+'])
+//}
