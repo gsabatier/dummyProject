@@ -8,7 +8,9 @@ public class Greeter {
 	
 	public String sayHello() {
 
-		return "Hello world!";
+		String result = "Hello World";
+//		result += " @ " + getGreeterTime();
+		return result;
 	}
 	
 /*
